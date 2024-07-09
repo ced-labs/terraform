@@ -24,3 +24,12 @@ variable "ingress_cidr" {
   description = "CIDR ingress"
   type        = string
 }
+
+# Estas variables sirven para conectar con Terraform Cloud
+variable "access_key" {
+  
+}
+
+variable "secret_key" {
+  
+}
